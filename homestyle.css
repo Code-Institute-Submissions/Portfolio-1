@@ -1,4 +1,17 @@
-h1{
-	font-family: Palanquin;
-	font-size: 100px;
+.center{
+	padding: 200px 0;
+	text-align: center;
+	}
+a{
+	font-family: Arial;
+	font-size: 4.5em;
+	color: #232b2d;
+	text-decoration: none;
+	
+}
+
+body{
+	background-image: url(harbour.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
