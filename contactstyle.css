@@ -1,0 +1,87 @@
+body{
+  font-family: 'Palanquin', sans-serif;
+      }
+
+    #container{
+        width: 400px;
+        margin: 150px;
+        margin-left: 35%;
+      }
+
+    #input_types{
+      background-color: whitesmoke;
+     }
+     
+    .submit{
+      margin-bottom: 10px;
+      margin-left: 100px;
+     }
+     
+    .label{
+      display: inline-block;
+      float: center;
+      clear: center;
+      text-align: left;
+      width: 100px;
+      margin-top: 5px;
+     }
+
+    legend{
+      font-size: 30px;
+      background-color: #fff;
+      border-radius: 5px;
+      border: 1px solid #999;
+      padding: 4px 15px;
+     }
+
+    input{
+      display: inline-block;
+      width: 200px;
+      border-radius: 5px;
+      padding: 6px 8px;
+      margin-top: 6px;
+      }
+
+    textarea{
+      display: inline-block;
+      width: 200px;
+      border-radius: 5px;
+      padding: 6px 8px;
+      margin-top: 6px;
+     }
+
+    .field{
+      padding: 6px 8px;
+     }
+         
+    fieldset{
+      width: 450px;
+      border: 1px solid #999;
+      border-radius: 20px;
+      clear: both;
+      padding: 20px;
+      margin-bottom: 100px;
+      background-color: rgba(129, 187, 201, .2);
+      }
+
+    body{
+      background-image: url(lochness.JPG);
+      background-size: cover;
+      background-attachment: fixed;
+      }
+
+    .nav{
+      margin: 0;
+      text-align: center;
+      }
+
+    .nav li{
+      display: inline-block;
+      text-align: center;
+      zoom: 1;
+      *display: inline;
+      }
+
+    .nav a{
+      display: inline-block;
+      }

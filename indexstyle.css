@@ -1,0 +1,78 @@
+nav{
+	font-family: 'Palanquin', sans-serif;
+	background-color: #eee;
+	margin: 200px auto;
+	width: 40%;
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items:stretch;
+	border-radius: 10px;
+	padding: 0;	
+		}
+
+	@keyframes rotate {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	div.loading {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #ffffff;
+		transition: opacity 1s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	div.loading img {
+		animation: rotate 2s infinite linear;
+	}
+
+	div.loading.hidden {
+		opacity: 0;
+		pointer-events: none;
+	}
+				
+a{
+	text-decoration: none;
+	color: black;
+	flex:1;
+	height: 30px;
+	font-family: Palanquin;
+	padding:20px 20px 20px 20px;
+	text-align: center;
+	font-size: 2em;
+	border:1px solid black;
+
+		}
+		
+
+@media screen and (min-width: 700px){
+		nav{
+			flex-flow: row;
+			align-items: baseline;
+			}
+		a{
+			font-size: 1.3em;
+			border: none;
+
+			}
+			
+		}
+
+body{
+    background-image: url(lochness.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+
+        }

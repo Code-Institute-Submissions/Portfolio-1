@@ -1,0 +1,19 @@
+body{
+
+	background-image: url(lochness.JPG);
+	background-size: cover;
+}
+     .container {
+     	text-align: center;
+     	margin-top: 200px;
+     } 
+
+
+<div class="container">
+		<div class="row">
+			<div id="project1">
+			<div class="col-md-6">
+				<h1>Project 1</h1>
+			<p>Project 1 in software development</p>
+			<a href='https://harrypotter-graphs.herokuapp.com/' class='brn btn-link'>Click</a>
+		</div></div>

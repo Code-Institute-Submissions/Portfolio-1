@@ -1,0 +1,22 @@
+{
+  "name": "stream1portfolio",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Katie Devops <katieoconnor1788@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Katie1788/stream1portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4"
+  }
+}
