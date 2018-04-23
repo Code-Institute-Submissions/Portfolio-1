@@ -3,14 +3,17 @@ body{
 	background-image: url(lochness.JPG);
 	background-size: cover;
 }
-     .container {
+
+.container {
      	text-align: center;
      	margin-top: 50px;
      } 
 
- img {
- 	width: 200px;
- 	height: 200px;
+img {
+ 	width: 100px;
+ 	height: 100px;
+ 	border-radius: 50%;
+ 	opacity: 0.7;
  }
 
 

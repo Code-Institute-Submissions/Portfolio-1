@@ -1,89 +1,86 @@
-body{
-  font-family: 'Palanquin', sans-serif;
+#container {
+      width: 400px;
+      margin: 20px;
+      margin-left: 35%;
       }
 
-    #container{
-        width: 400px;
-        margin: 20px;
-        margin-left: 35%;
-      }
-
-    #input_types{
-      background-color: whitesmoke;
+#input_types {
+    background-color: whitesmoke;
      }
      
-     .button {
-      margin-bottom: 10px;
-      margin-left: 100px;
-      padding: 10px;
-      border-radius: 8px;
+.button {
+   margin-bottom: 10px;
+   margin-left: 100px;
+   padding: 10px;
+   border-radius: 8px;
      }
      
-    .label{
-      display: inline-block;
-      float: center;
-      clear: center;
-      text-align: left;
-      width: 100px;
-      margin-top: 5px;
+.label {
+    display: inline-block;
+    float: center;
+    clear: center;
+    text-align: left;
+    width: 100px;
+    margin-top: 5px;
      }
 
-    legend{
-      font-size: 20px;
-      background-color: #eee;
-      border-radius: 5px;
-      border: 1px solid #999;
-      padding: 4px 15px;
+legend {
+    font-size: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 4px 15px;
      }
 
-    input{
+input {
+   display: inline-block;
+   width: 50%;
+   border-radius: 5px;
+   padding: 6px 8px;
+   margin-top: 6px;
+    }
+
+textarea {
       display: inline-block;
       width: 50%;
       border-radius: 5px;
       padding: 6px 8px;
       margin-top: 6px;
-      }
-
-    textarea{
-      display: inline-block;
-      width: 50%;
-      border-radius: 5px;
-      padding: 6px 8px;
-      margin-top: 6px;
      }
 
-    .field{
-      padding: 2px 4px;
+.field {
+    padding: 2px 4px;
      }
          
-    fieldset{
-      width: 450px;
-      border: 1px solid #999;
-      border-radius: 20px;
-      clear: both;
-      padding: 20px;
-      margin-bottom: 100px;
-      background-color: rgba(129, 187, 201, .2);
+fieldset {
+    width: 450px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    clear: both;
+    padding: 20px;
+    margin-bottom: 100px;
+    background-color: rgba(129, 187, 201, .2);
       }
 
-    body{
+body {
       background-image: url(lochness.JPG);
       background-size: cover;
       background-attachment: fixed;
+      font-family: 'Palanquin', sans-serif;
       }
 
-    .nav{
-      margin: auto;
-      text-align: center;
-      }
+.nav {
+    margin: auto;
+    text-align: center;
+    }
 
-    .nav li{
-      display: inline-block;
-      text-align: center;
-      zoom: 1;
-      *display: inline;
-      }
+.nav li {
+    display: inline-block;
+    text-align: center;
+    zoom: 1;
+    *display: inline;
+    }
 
-    .nav a{
-      display: inline-block;
+.nav a {
+  display: inline-block;
       }
