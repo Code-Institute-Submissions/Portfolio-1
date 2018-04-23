@@ -1,5 +1,18 @@
-body{
+body {
 
 	background-image: url(lochness.JPG);
 	background-size: cover;
+    font-family: 'Palanquin', sans-serif;
+      
 }
+
+.about {
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+	background-color: #eee;
+	border-radius: 5px;
+	
+
+}
+
